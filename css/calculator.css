@@ -1,0 +1,34 @@
+header h1 {
+  text-align: center;
+}
+
+.calculator {
+  width: 200px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.calculator input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.calculator .buttons button {
+  width: 48px;
+  height: 48px;
+  font-size: 18px;
+  margin: 2px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.calculator .buttons button:nth-child(4n) {
+  margin-right: 0;
+}
+
+.calculator .buttons button:last-child {
+  width: 100%;
+  margin-top: 10px;
+}

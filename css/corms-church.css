@@ -1,0 +1,28 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#corms-overview {
+  border-right: none;
+}
+
+#church-program {
+  border-left: none;
+}
+
+#left-align {
+  text-align: left;
+}
+
+#row-images {
+  display: flex;
+  justify-content: space-around;
+}

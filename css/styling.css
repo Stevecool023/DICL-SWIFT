@@ -1,0 +1,35 @@
+h1 {
+  color: red;
+  /* border-top-style: dashed;
+  border-top-width: 2px;
+  border-top: 1px dashed blue;
+  border-left: 1px dotted blue; */
+  border: 1px dotted blue;
+  border-bottom: none; 
+}
+
+h2 {
+  font-size: 100px;
+  color: #598358;
+}
+
+.class_styling{
+  text-decoration: underline;
+  font-style: italic;
+  text-indent: 4cqh;
+  text-decoration-color: blueviolet;
+}
+
+p {
+  font-style: inherit;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+}
+
+/*
+This is a block comment
+Very useful in commenting out an unused block of code instead of deleting it.
+In most IDEs, "ctrl + /" comments out the highlighted text of code.
+*/
+
+/* This is an inline comment*/
